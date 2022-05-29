@@ -1,0 +1,50 @@
+.editors {
+  height: 90vh;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 15px 24px;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas:
+    ". ."
+    ". .";
+  font-family: 'Fira Code', monospace;
+}
+
+.editor {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  background-color: hsl(0, 0%, 18%);
+  color: white;
+  font-size: 14pt;
+}
+
+#viewer {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  overflow: auto;
+  margin-top: 3rem;
+  margin-top: 0;
+  background-color: white;
+}
+
+body {
+  background-color: hsl(0, 0%, 10%);
+}
+
+header {
+  color: white;
+  font-family: Consolas, monospace;
+}
+
+a {
+  color: rgb(241, 249, 5);
+  text-decoration: none;
+}
